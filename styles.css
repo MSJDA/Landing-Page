@@ -2,10 +2,10 @@
     padding: 0;
     margin: 0;
 }
+
 body {
-    background-color: #171717;
-    color: white;
-    font-size: 16px;
+    background-color: #E5E5E5;
+    color: #171717;
 }
 
 /* Styling of the contents for the header */
@@ -21,20 +21,19 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.menu-btn {
-    display: none;
-    cursor: pointer;
-}
 .title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.5rem;
+    color: #FAFAF9;
+    margin-left: 6rem;
 }
 .navbar {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .navbar > a {
     font-family: 'Inter';
@@ -46,11 +45,23 @@ body {
     margin: 0 1rem;
     color: #FAFAF9;
 }
+.signup{
+    background: #FFFFFF;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    padding: 0.5rem 1.5rem;
+}
+.signup > span {
+    color: #171717;
+}
 
 
 /* Styling of the First section */
 .section-1 {
-    margin: 5rem 1.5rem;
+    margin: 5rem 7.75rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
 }
 .section-1-title {
     font-family: 'Montserrat';
@@ -60,7 +71,7 @@ body {
     line-height: 10.63rem;
     letter-spacing: -0.13rem;
     text-transform: uppercase;
-    color: #FAFAF9;
+    color: #171717;
     width: 55.19rem;
 }
 .section-1-para{
@@ -70,7 +81,7 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.5px;
-    color: rgba(239, 237, 232, 0.65);
+    color: #232532;
     width: 35.00rem;
     margin: 3rem 0;
 }
@@ -87,121 +98,13 @@ body {
 /* styling of the image in the first section  */
 .runner {
     z-index: 20;
-    position: absolute;
-    top: 33%;
-    right: 20%;
-}
-
-/* Styling of the tracking data boxes */
-.det{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
     position: relative;
-    top: -10rem;
+    right: 30%;
 }
-/* styling of the timer */
-.time{
-    background: rgb(50, 50, 50);
-    border-radius: 1.25rem;
-    width: max-content;
-    padding: 0.75rem;
-}
-.time >h2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 1px;
-    color: #FFE642;
-}
-.time > p {
-    font-weight: 400;
-    font-size: 0.88rem;
-    line-height: 0.88rem;
-    letter-spacing: 1px;
-}
-/* styling of the calorie data display */
-.calorie{
-    background: rgb(51, 50, 50);
-    border-radius: 1.25rem;
-    width: max-content;
-    padding: 0.75rem;
-}
-.calorie >h2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 1px;
-    color: #FB1351;
-}
-.calorie > p {
-    font-weight: 400;
-    font-size: 0.88rem;
-    line-height: 0.88rem;
-    letter-spacing: 1px;
-}
-/* styling of the distance display */
-.distance{
-    background: #EF8964;
-    border-radius: 0.75rem;
-    padding: 1rem;
-    width: max-content;
-    position: absolute;
-    top: 33%;
-    right: 10%;
-}
-.distance > h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 3.13rem;
-    letter-spacing: -5px;
-    text-transform: uppercase;
-    color: #FAFAF9;
-}
-.distance > img {
-    background-color: #EFA082;
-    border-radius: 1rem;
-}
-/* styling of the video link  */
-.videos{
-    background: #7A29DC;
-    border-radius: 0.75rem;
-    padding: 1rem;
-    width: max-content;
-    position: absolute;
-    right: 10%;
-    bottom: -10%;
-}
-.videos > h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 1px;
-    color: #FAFAF9;
-}
-.videos > p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.88rem;
-    line-height: 1.25rem;
-    letter-spacing: 1px;
-    color: rgba(239, 237, 232, 0.65);
-}
-
 
 /* STYLING OF SECTION 2 */
 .section-2 {
-    margin: 15rem 1.5rem;
+    margin: 15rem 5.25rem;
 }
 .section-2-head {
     margin-bottom: 2.5rem;
@@ -211,22 +114,22 @@ body {
     font-size: 2.5rem;
     line-height: 3.13rem;
     margin-bottom: 2rem;
-    color: #FAFAF9;
+    color: #171717;
 }
 .section-2-para{
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: rgba(239, 237, 232, 0.65);
+    color: #171717;
 }
 .section-2-body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* gap: 4rem; */
+    gap: 4rem;
 }
 .section-2-links {
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
     display: flex;
     flex-direction: row;
     padding: 3.25rem 2.5rem;
@@ -243,6 +146,7 @@ body {
     font-family: 'Inter';
     font-size: 1rem;
     font-weight: 600;
+    color: #FAFAF9;
 }
 .section-2-links-body > p {
     font-family: 'Inter';
@@ -254,13 +158,14 @@ body {
 .svg-1 {
     width: 3rem;
     height: 3rem;
+    color: #FAFAF9;
 }  
 
 
 
 /* STYLING FOR ALL CONTENTS OF SECTION 3 */
 .section-3{
-    margin: 7.5rem 1.5rem;
+    margin: 7.5rem 7.75rem;
 }
 .section-3-f {
     display: flex;
@@ -277,14 +182,14 @@ body {
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 3.13rem;
-    color: #FAFAF9;
+    color: #171717;
 }
 .subsection-3 > p {
     font-weight: 400;
     font-size: 0.88rem;
     line-height: 1.5rem;
     letter-spacing: 0.3px;
-    color: rgba(239, 237, 232, 0.65);
+    color: #171717;
     margin-bottom: 1.75rem;
 }
 .subsection-3 > a {
@@ -320,12 +225,12 @@ body {
     font-size: 3.1rem;
     line-height: 4.38rem;
     letter-spacing: 0.83px;
-    color: #FAFAF9;
+    color: #232532;
 }
 .line {
     width: 100%;
     opacity: 0.4;
-    border: 0.5px solid #FFFFFF;
+    border: 0.5px solid #656565;
     margin: 2rem 0;
 }
 .subsection-4 {
@@ -528,13 +433,7 @@ body {
 }
 @media (max-width: 768px ) {
     html {
-        font-size: 75%;
-    }
-    .menu-btn {
-        display: block;
-    }
-    .navbar {
-        display: none;
+        font-size: 12px;
     }
     .runner {
         z-index: -10;
