@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    border:0px dotted black;
+    width: 80%;
+    margin: 40px 130px;
+    padding: 1.3rem;
+    color: #171717;
+    background-color: #FAFAF9;
+}
+
+#date{
+    font-family: 'Montserrat';
+    color:grey;
+    padding:5px 15px;
+}
+
+#name{
+    /* color: black; */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    padding: 15px;
+}
+
+#header{
+    background-color: #0D1957;
+    min-height: 70px;
+    padding: 0.85rem;
+    border-radius: 1rem;
+}
+
+#header > p{
+    font-family: 'Montserrat';
+    color:#FAFAF9;
+    font-weight: 600;
+}
+
+#activity{
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    margin: 6px;
+}
+
+.img{
+    width:500px;
+}
